@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+}
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+header {
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(155, 111, 111, 1);
+}
+footer {
+    height: 20vh;
+    width: 100vw;
+    background-color: rgba(82, 75, 75, 1);
+}
+main {
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+}
+.news {
+    height: 65vh;
+    width: 30vw;
+}
+.news-1 {
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    background-color: rgba(217, 217, 217, 1);
+}
+.news-2 {
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    background-color: rgba(170, 152, 152, 1);
+}
+.news-3 {
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    background-color: rgba(197, 187, 187, 1);
+}
+.content {
+    height: 65vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-1 {
+    height: 65vh;
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    background-color: rgba(138, 132, 132, 1);
+}
+.content-2 {
+    height: 65vh;
+    width: 34vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    background-color: rgba(192, 179, 179, 1);
+}
+
