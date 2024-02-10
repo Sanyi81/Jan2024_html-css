@@ -7,6 +7,17 @@ body {
     height: 100vh;
     width: 100vw;
 }
+#page2, #page3 {
+    background-image: url("Rectangle 4.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#page2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #page1 {
     background-image: url("image 4.jpg");
     background-size: cover;
@@ -27,7 +38,7 @@ img {
     flex-direction: column;
     background-color: white;
 }
-.first {
+button {
     width: 409px;
     height: 76px;
     border-radius: 5px;
@@ -50,6 +61,14 @@ h2 {
     font-weight: 400;
     line-height: normal;
 }
+h3 {
+    color: #000;
+    font-family: 'KoHo', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 p {
     color: #000;
     font-family: 'KoHo', sans-serif;
@@ -57,4 +76,30 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.abstract {
+    width: 700px;
+    height: 200px;
+}
+.abstract>p {
+    margin: 0;
+}
+.abstract>h3 {
+    margin-bottom: 0;
+}
+#page3 {
+    justify-content: space-evenly;
+}
+#page3 div {
+    width: 450px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#page3 img {
+    width: 400px;
+    height: 200px;
 }
