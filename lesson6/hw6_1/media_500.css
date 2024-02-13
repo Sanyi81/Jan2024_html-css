@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px) {
+    .block_bc {
+        flex-direction: column;
+    }
+    .block_b {
+        width: 100vw;
+        height: 50vh;
+    }
+    .block_c {
+        width: 100vw;
+        height: 25vh;
+    }
+}
