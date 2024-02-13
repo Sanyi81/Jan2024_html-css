@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px) {
+    .block_a {
+        height: 20vh;
+    }
+    .block_bf {
+        height: 80vh;
+        flex-direction: column;
+    }
+    .block_be {
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .block_f {
+        height: 20vh;
+        width: 100vw;
+    }
+    .block_b {
+        width: 100vw;
+        height: 40vh;
+    }
+    .block_ce {
+        width: 100vw;
+    }
+    .c {
+        width: 30vw;
+    }
+    .d {
+        width: 40vw;
+    }
+    .e {
+        width: 30vw;
+    }
+}
