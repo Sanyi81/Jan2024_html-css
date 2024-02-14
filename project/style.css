@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+#page1 {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 1), rgba(53, 53, 80, 1) 100%);
+}
+.header {
+    width: 1440px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.enver_logo {
+    width: 40px;
+    height: 40px;
+}
+.enver {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+}
+#menu {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu_button {
+    width: 157px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
